@@ -6,7 +6,7 @@
 <string name="txt_correo">Ingresa Correo electrónico</string>
 <string name="tv5">Ingresa fecha de nacimiento en formato númerico</string>
 <string name="dia">número de día</string>
-<string name="mes">número de mes(1-12)</string>
+<string name="mes">número de mes</string>
 <string name="año">número de año</string>
 <string name="button1">Siguiente</string>
 <string name="tv1">Tu edad es:</string>

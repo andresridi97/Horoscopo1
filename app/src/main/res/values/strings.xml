@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">Horoscopo</string>
-    <string name="txt_nombre">Ingresa nombre</string>
-    <string name="txt_fecha">Ingresa fecha de nacimiento</string>
-    <string name="txt_cuenta">Ingresa No. Cuenta de 10 digitos</string>
-    <string name="txt_correo">Ingresa Correo electrónico</string>
-    <string name="tv5">Ingresa fecha de nacimiento en formato númerico</string>
-    <string name="dia">número de día</string>
-    <string name="mes">número de mes(1-12)</string>
-    <string name="año">número de año</string>
-    <string name="button1">Resultados</string>
-    <string name="tv1">Tu edad es:</string>
-    <string name="tv2">edad</string>
-    <string name="tv3">Tu horscopo es:</string>
-    <string name="tv4">horoscopo</string>
-    <string name="button2">intentar otra vez</string>
+<string name="app_name">Horoscopo</string>
+<string name="txt_nombre">Ingresa nombre</string>
+<string name="txt_fecha">Ingresa fecha de nacimiento</string>
+<string name="txt_cuenta">Ingresa No. Cuenta de 10 digitos</string>
+<string name="txt_correo">Ingresa Correo electrónico</string>
+<string name="tv5">Ingresa fecha de nacimiento en formato númerico</string>
+<string name="dia">número de día</string>
+<string name="mes">número de mes(1-12)</string>
+<string name="año">número de año</string>
+<string name="button1">Siguiente</string>
+<string name="tv1">Tu edad es:</string>
+<string name="tv2">edad</string>
+<string name="tv3">Tu horoscopo es:</string>
+<string name="tv4">Horoscopo</string>
+<string name="button2">calcular</string>
 </resources>

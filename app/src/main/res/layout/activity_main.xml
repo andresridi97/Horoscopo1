@@ -5,6 +5,7 @@
     android:id="@+id/meses"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
     tools:context=".MainActivity">
 
     <EditText
@@ -15,6 +16,7 @@
         android:ems="10"
         android:hint="@string/txt_nombre"
         android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -27,6 +29,7 @@
         android:ems="11"
         android:hint="@string/txt_correo"
         android:inputType="textEmailAddress"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_cuenta" />
@@ -38,6 +41,9 @@
         android:layout_marginTop="4dp"
         android:onClick="Resultados"
         android:text="@string/button1"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/holo_blue_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,6 +57,7 @@
         android:ems="10"
         android:hint="@string/txt_cuenta"
         android:inputType="phone"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_nombre" />
@@ -61,6 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/app_name"
+        android:textColor="@android:color/background_dark"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -75,6 +83,7 @@
         android:ems="10"
         android:hint="@string/dia"
         android:inputType="number"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -85,6 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/tv5"
+        android:textColor="@android:color/background_dark"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -99,6 +109,7 @@
         android:ems="10"
         android:hint="@string/mes"
         android:inputType="number"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dia" />
@@ -124,6 +135,7 @@
         android:ems="10"
         android:hint="@string/año"
         android:inputType="number"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mes" />
